@@ -19,7 +19,7 @@ class Scene2 extends Phaser.Scene {
             hideOnComplete:true
         });
 
-        var maxObjects = 4;
+        var maxObjects = 10;
         for (var i = 0; i <= maxObjects; i++){
             var powerUp = this.physics.add.sprite(16, 16, "bubble");
             powerUp.setRandomPosition(0, 0, config.width, config.height);
